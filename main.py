@@ -1,9 +1,12 @@
-import psycopg2
+
 from API import get_job
 
 class DBManager:
     '''Класс для подключения и работы с Базой Данных'''
-    def __init__ (self):
+    get_job()
+
+    def __init__ (self, list):
+
 
     def get_companies_and_vacancies_count(self):
     ''''''
