@@ -1,4 +1,5 @@
-
+import psycopg2
+from API import get_job
 
 class DBManager:
     '''Класс для подключения и работы с Базой Данных'''
