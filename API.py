@@ -1,8 +1,5 @@
 import requests
 
-
-
-
 def get_job():
     '''Функция получает с сайта HH вакансии по выбранным компаниям
      и собирает в удобный список для работы'''
@@ -19,6 +16,4 @@ def get_job():
                                             'salary': salary, 'url': x['alternate_url']}})
     return responses
 
-# a = get_job(company_ids)
-# for x in a:
-#     print(x)
+
